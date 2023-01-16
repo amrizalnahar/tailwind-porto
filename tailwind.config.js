@@ -4,17 +4,18 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '16px',
+      padding: '20px',
     },
     extend: {
       colors: {
         primary: '#be123c',
         dark: '#0f172a',
+        secondary: '#64748b'
       },
 
-      screens:{
-        '2xl' : '1320px',
-      }
+      // screens:{
+      //   '2xl' : '1320px',
+      // }
     },
   },
   plugins: [],
